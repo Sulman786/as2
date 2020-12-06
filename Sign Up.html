@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Sign Up</title>
+     <style>
+           a {
+            text-decoration: none;
+            padding-right: 50px;
+            padding-left: 30px;
+            color: #000;
+            font-size: 25px;            
+      }
+     a:hover{
+          color: red;
+      }
+      
+     </style>
+</head>
+<body>
+    <div>
+        <img src="./images/3.jpg" alt="image" width="100%" height="300px" />
+    </div>
+    <div  style="padding-top: 15px;">
+        <a href="./Home.html">Home</a>
+        <a href="./Login.html">Login</a>
+        <a href="./Sign Up.html">Sign Up</a>
+        <a href="./Dashboard.html">Dashboard</a>
+        <a href="./Menu.html">Menu</a>
+    </div>
+    <h1>
+        Sign Up Page
+    </h1>
+    <div>
+        <form>
+            <label>First Name:</label>
+            <input type="text" name="fname" placeholder="Sulman" /><br /><br />
+            <label>Last Name:</label>
+            <input type="text" name="lname" placeholder="Masood" /><br /><br />
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="xyz@gamil.com" /><br /><br />
+            <label>Password:</label>
+            <input type="password" name="Password" placeholder="type your password" /><br /><br />
+            <label>Date of Birth:</label>
+            <input type="date" name="dob" /><br /><br />
+            <label>Gender:</label>
+            Female<input type="radio" name="Female" />
+            Male<input type="radio" name="Female" />
+            Other<input type="radio" name="Female" /><br /><br />
+            <label>Select your favourtie food:</label>
+            Pizza<input type="checkbox" name="pizza" />
+            Burger<input type="checkbox" name="burger" />
+            Biryani<input type="checkbox" name="biryani" /><br /> <br />
+            <label>Select Your City:</label>
+        
+            <select name="city">
+                <option value="Faisalabad">Faisalabad</option>
+                <option value="Lahore" selected>Lahore</option>
+                <option value="Multan">Multan</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="peshawar">Peshawar</option>
+                <option value="karachi">Karachi</option>
+                <option value="jhang">Jhang</option>
+                <option value="burewala">Burewala</option>
+            </select><br /><br />
+            <label>upload Your Picture:</label>
+            <input type="file" name="image/png" /><br /><br />
+            <label>Write Your Comments here:</label><br /><br />
+            <textarea placeholder="Enter Your Hobies:" maxlength="400" required></textarea><br /><br />
+            <button type="submit">Submit</button>
+        </form>
+</body>
+</html>
